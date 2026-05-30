@@ -20,6 +20,7 @@ RUN pip install --no-cache-dir \
     scikit-learn==1.6.0 \
     joblib==1.4.2 \
     pydantic==2.10.4 \
+    email-validator==2.2.0 \
     neo4j==5.27.0 \
     python-dotenv==1.0.1 \
     langgraph \
