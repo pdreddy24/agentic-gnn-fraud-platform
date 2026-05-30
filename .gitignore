@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+*.env
+.env.local
+.env.production
+secrets/
+*.key
+
+# Local database and user uploads
+storage/
+uploads/
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# Runtime logs/audits
+audits/
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db

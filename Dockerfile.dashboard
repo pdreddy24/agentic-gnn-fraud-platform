@@ -1,0 +1,16 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+
+RUN pip install --no-cache-dir \
+    streamlit==1.41.1 \
+    requests==2.32.3
+
+COPY dashboard /app/dashboard
+
+EXPOSE 8501
+
+CMD ["sh", "-c", "streamlit run dashboard/streamlit_app.py --server.address=0.0.0.0 --server.port=${PORT:-8501}"]

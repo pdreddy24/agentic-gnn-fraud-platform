@@ -1,0 +1,6 @@
+{
+  "tabular_roc_auc": 0.6845787545787547,
+  "tabular_avg_precision": 0.4077309713966387,
+  "gnn_roc_auc": 0.8264652014652014,
+  "gnn_avg_precision": 0.5585256554190126
+}
