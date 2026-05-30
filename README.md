@@ -1,3 +1,78 @@
+# Agentic GNN Fraud Detection Platform
+
+A full-stack **Transactional Fraud Detection** platform that uses **Graph Neural Networks**, **Neo4j**, **Machine Learning**, and **LLM explanations** to detect suspicious financial transactions.
+
+The system analyzes relationships between users, devices, cards, IP addresses, merchants, and transactions to classify each transaction as:
+
+- ✅ `APPROVE`
+- ⚠️ `REVIEW`
+- 🚫 `BLOCK`
+
+---
+
+## 🚀 Overview
+
+Fraud is not always visible in a single transaction.  
+A transaction may look normal by amount or country, but it can become suspicious when connected to shared devices, repeated IP addresses, risky merchants, or multiple accounts.
+
+This project combines graph intelligence and machine learning to identify hidden fraud patterns.
+
+---
+
+## 🧠 How It Works
+
+```text
+CSV Upload
+ ↓
+FastAPI Backend
+ ↓
+Data Validation
+ ↓
+Feature Engineering
+ ↓
+Neo4j Graph Analysis
+ ↓
+GNN Fraud Scoring
+ ↓
+ML Fraud Scoring
+ ↓
+Policy Decision
+ ↓
+LLM Explanation
+ ↓
+Final Result
+```
+
+---
+
+## ✨ Features
+
+- CSV transaction upload
+- Fraud risk prediction
+- Neo4j graph relationship analysis
+- GNN-based fraud scoring
+- Traditional ML scoring
+- Final decision: `APPROVE`, `REVIEW`, or `BLOCK`
+- LLM-based explanation
+- Upload history
+- Batch comparison
+- React frontend
+- FastAPI backend
+- Docker support
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React
+- **Backend:** FastAPI, Python
+- **Database:** SQLite, Neo4j
+- **Machine Learning:** Scikit-learn
+- **Graph AI:** Graph Neural Networks / GraphSAGE-style model
+- **Agent Workflow:** LangGraph-style agents
+- **LLM:** OpenAI API
+- **DevOps:** Docker, Docker Compose
+
 ---
 
 ## 🧾 Case Study Summary
