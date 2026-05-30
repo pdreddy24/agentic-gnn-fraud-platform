@@ -14,6 +14,7 @@ RUN pip install --no-cache-dir --upgrade pip
 
 RUN pip install --no-cache-dir \
     fastapi==0.115.6 \
+    python-multipart==0.0.20 \
     uvicorn==0.34.0 \
     pandas==2.2.3 \
     numpy==2.2.1 \
